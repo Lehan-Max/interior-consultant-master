@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #181719;
+}
+ul{
+    list-style: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.logo{
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    color: white;
+    align-items: center;
+}
+.home{
+    border-bottom: 1px solid white;
+}
+.description{
+    color: aliceblue;
+    align-self: center;
+    width: 204px;
+}
+.banner-image{
+    width: 710px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.heading{
+    width: 365px;
+    height: 61px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+.site-description{
+    width: 410px;
+    height: 145px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.designer-name-qualification{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.designed-since{
+    color: #FFFFFF;
+}
+.designer-profile{
+    display: flex;
+}
+.photo2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.banner{
+    position: relative;
+}
+.designer{
+    background: #181719;
+    width: 360px;
+    position: absolute;
+    right: 70px;
+    bottom: 60px;
+    padding: 40px;
+    -webkit-box-shadow: 7px 11px 17px -3px rgba(3,2,3,1);
+    -moz-box-shadow: 7px 11px 17px -3px rgba(3,2,3,1);
+    box-shadow: 7px 11px 17px -3px rgba(3,2,3,1);
+}
